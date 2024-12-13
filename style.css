@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(41, 7, 72);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: blueviolet
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(255, 114, 255);
+    font-size: 1.04rem;
+}
+
+main hr {
+    border-radius: 0%;
+    background-color: rgb(152, 81, 218);
+    height: 1.2px;
+    margin: 13px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.firstsection>div {
+    width: 32%;
+    border: 30px;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+
+}
+
+.rightsection img {
+    width: 100%;
+    margin: 50px 0;
+
+}
+
+.blue {
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 3rem;
+}
+
+.purple {
+    color: rgb(249, 212, 6);
+}
+
+#element {
+    color: gold;
+}
+
+.leftsection1 {
+    display: flex;
+    background-color: blueviolet;
+    width: 43%;
+    font-size: medium;
+    margin: 20% 0;
+    border-radius: 23px;
+}
+
+.leftsection1:hover {
+    color: rgb(69, 0, 69);
+    font-size: 1.04rem;
+}
+
+.h1 {
+    margin-left: 15px;
+    color: white;
+}
+
+.secondsection {
+    display: flex;
+    width: auto;
+
+}
+
+.secondsection h1 {
+    font-size: 44px;
+    margin: 1px;
+
+}
+
+.secondsection {
+    background-color: blueviolet;
+    padding: 6rem 0;
+}
+
+.paragraph1 {
+    margin-top: -182px;
+    font-size: 25px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.secondsection .heading1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 82px;
+    margin-top: -35px;
+}
+
+.about-content img {
+    width: 328px;
+    height: 430px;
+    border-radius: 45%;
+    object-fit: cover;
+    margin-right: 121px;
+}
+
+.about-content p {
+    margin-right: 483px;
+    padding: 0 5vw;
+}
+
+.secondsection .about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-content .left-content {
+    flex-basis: 45%;
+    text-align: center;
+}
+
+.about-content .right-content {
+    flex-basis: 45%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 25px 30px;
+}
+
+.skillhead {
+    font-weight: 56px;
+    ;
+    font-size: 3rem;
+    font-family: 'Merriweather', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 2.5vh;
+}
+
+.skill-card {
+    width: 20vw;
+    height: 20vw;
+    background-color: #fd87eb;
+    border-radius: 20px;
+    ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    transition: all ease 0.5s;
+}
+
+.skill-card:hover {
+    background-color: rgb(74, 8, 74);
+}
+
+.skill-card img {
+    height: 7.5vw;
+    width: 7.5vw;
+    object-fit: contain;
+}
+
+.skill-card h2 {
+    font: size 24px;
+    ;
+    font-weight: 400;
+    color: black;
+}
+.work-arrow-2 {
+    margin: 2rem 0;
+}
+
+.work-arrow-2 a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: aqua;
+}
+
+.section4 {
+    display: flex;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    height: 60rem;
+
+}
+
+.proj-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.proj-1 img {
+    display: block;
+    margin: auto;
+    height: 331px;
+    border-radius: 157px;
+    width: 300px;
+    margin-right: 663px;
+    margin-top: 84px;
+}
+
+.proj-2 img {
+    display: block;
+    margin: auto;
+    height: 331px;
+    border-radius: 157px;
+    width: 300px;
+    margin-right: 663px;
+    margin-top: 84px;
+}
+
+.section4-head1 {
+    font-size: 3rem;
+    margin-left: 23rem;
+    margin-bottom: 2px;
+    margin-top: -133px;
+}
+
+.p1 {
+    font-size: 23px;
+    margin-left: 23rem;
+}
+
+.section4-head2 {
+    font-size: 3rem;
+    margin-left: 23rem;
+    margin-bottom: 2px;
+    margin-top: -133px;
+}
+
+.p2 {
+    font-size: 23px;
+    margin-left: 23rem;
+}
+
+.ri-external-link-line {
+    color: black;
+}
+
+.proj1-details .button {
+    font-size: 23px;
+    color: rgb(150, 6, 73);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 150px;
+}
+
+.g1 {
+    color: rgb(150, 6, 73);
+    margin-left: 0rem;
+}
+
+.button1 {
+    font-size: 23px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 150px;
+}
+.achivments{
+    display: flex;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(41, 7, 72);
+    height: 100rem;
+}
+.achivehead{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    margin-top: -511px;
+}
+.achivments-head1{
+    font-size: 3rem;
+    margin-left: 40rem;
+    margin-bottom: 2px;
+    margin-top: -133px;
+}
+.ap1{
+    font-size: 18px;
+    margin-left: 35rem;
+}
+.achivments-head2{
+    font-size: 3rem;
+    margin-left: 40rem;
+    margin-bottom: 2px;
+    margin-top: -133px;
+}
+.ap2{
+    font-size: 18px;
+    margin-left: 35rem;
+}
+.achivments-head3{
+    font-size: 3rem;
+    margin-left: 40rem;
+    margin-bottom: 2px;
+    margin-top: -133px;
+}
+.ap3{
+    font-size: 18px;
+    margin-left: 35rem;
+}
+.l1{
+    color: rgb(150, 6, 73);
+    margin-left: 0rem;
+}
+.abutton1{
+    font-size: 13px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 117px;
+    height: 30px;
+}
+.c1 img {
+    display: block;
+    margin: auto;
+    height: 236px;
+    border-radius: 7px;
+    width: 403px;
+    margin-right: 1060px;
+    margin-top: 84px;
+}
+.c2 img {
+    display: block;
+    margin: auto;
+    height: 236px;
+    border-radius: 7px;
+    width: 403px;
+    margin-right: 1060px;
+    margin-top: 84px;
+}
+.c3 img {
+    display: block;
+    margin: auto;
+    height: 236px;
+    border-radius: 7px;
+    width: 403px;
+    margin-right: 1060px;
+    margin-top: 84px;
+}
+.contact-section {
+    display: flex;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:blueviolet ;
+    height: 45rem;
+    margin-top: -478px;
+}
+
+.portfolio {
+    background: white;
+    padding: 6rem 0;
+}
+.contact-me {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.mail {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 16px;
+}
+
+.linkedin {
+    font-size: 23px;
+    margin-right: 183px;
+}
+
+.github {
+    font-size: 20px;
+    margin-top: -45px;
+}
+
+.instagram {
+    font-size: 20px;
+    margin-top: -51px;
+    margin-left: 177px;
+}
+.li1{
+    display: block;
+  margin: auto;
+  margin-top: -2px;
+  margin-left: 91px;
+}
+.ii1{
+    display: block;
+    margin-top: -50px;
+}
+.gi1{
+    display: block;
+    margin: auto;
+    margin-right: 92px;
+  margin-top: -48px;
+}
